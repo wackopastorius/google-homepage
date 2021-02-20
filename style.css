@@ -1,0 +1,48 @@
+.logo-img {
+  display: block;
+  padding-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 90px;
+}
+
+form {
+    text-align: center;
+    padding-top: 20px;
+}
+
+input {
+    width: 600px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    line-height: 2.5em;
+}
+
+li {
+    display: inline;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 7px;
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+ }
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
