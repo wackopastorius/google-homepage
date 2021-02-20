@@ -18,31 +18,40 @@ input {
     border-radius: 50px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    line-height: 2.5em;
+input:focus {
+    outline: none;
 }
 
-li {
-    display: inline;
+.topnav {
+    overflow: hidden;
     
 }
-
-a {
+.topnav a {
+    float: left;
     text-decoration: none;
-    padding: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
     color: black;
     font-family: arial,sans-serif;
-    font-size: 13px;
+    font-size: 14px;
  }
 
-a:hover {
+.topnav a:hover {
     text-decoration: underline;
 }
 
+.topnav-right {
+    float: right;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 11px;
+    margin-top: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
 
 
