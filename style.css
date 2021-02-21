@@ -1,31 +1,3 @@
-.logo-img {
-  display: block;
-  padding-top: 30vh;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  height: 90px;
-}
-
-form {
-    text-align: center;
-    padding-top: 20px;
-}
-
-input {
-    width: 600px;
-    padding: 15px;
-    border-radius: 50px;
-}
-
-input:focus {
-    outline: none;
-}
-
-.topnav {
-    overflow: hidden;
-    
-}
 .topnav a {
     float: left;
     text-decoration: none;
@@ -45,13 +17,61 @@ input:focus {
     float: right;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 11px;
-    margin-top: 11px;
-    margin-left: 4px;
-    margin-right: 4px;
+.topnav {
+    overflow: hidden;
 }
 
+.logo-img {
+  display: block;
+  padding-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 90px;
+}
 
+form {
+    text-align: center;
+    padding-top: 20px;
+}
+
+input {
+    color: rgba(0,0,0,.87);
+    width: 600px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #dcdcdc;
+    outline-color: none;
+    cursor: text;
+    background-color: transparent;
+    z-index: -1;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.voice {
+    height:20px;
+    top: 5px;
+    left: 10px;  
+    position: absolute;
+    margin-right: 30px;
+}
+
+.search-icon {
+    color: rgb(154, 160, 166);
+    position: absolute;
+    z-index: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
