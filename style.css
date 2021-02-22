@@ -28,3 +28,37 @@
     position: relative;
     top: 25vh;
 }
+
+#bottomnav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #E7E7E7;
+    overflow: hidden;
+}
+
+.bottomnav a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 16px;
+    display: inline-block;
+}
+
+.bottomnav-right {
+    float: right;
+}
+
+.bottomnav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
